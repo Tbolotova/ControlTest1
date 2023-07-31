@@ -15,3 +15,12 @@ string[] newArray = new string[newArrLength];
 FillArrayByLength(stringArray, desiredLength, newArrLength);
 
 Console.WriteLine($"The values in the array shorter than {desiredLength} symbols: {String.Join(",", stringArray)} {String.Join(",", newArray)}");
+
+int GetStringNumByLength(string[] arr, int desiredLength){
+    int result = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        result += arr[i].Length <= desiredLength ? 1 : 0;
+    }
+    return result;
+}
