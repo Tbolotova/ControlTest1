@@ -19,4 +19,8 @@
 
 [“Russia”, “Denmark”, “Kazan”] → []
 
+## Блок-схема:
 
+[Flowchart](https://drive.google.com/file/d/13k28JkD2a0xOYXQvxLhCqkOA_TSXN5a2/view?usp=drive_link)
+
+![Flowchart](ControlTask.jpg)
